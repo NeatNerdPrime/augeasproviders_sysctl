@@ -4,7 +4,21 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v4.0.0](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/tree/v4.0.0) (2026-01-21)
+## [v4.1.0](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/tree/v4.1.0) (2026-05-04)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/compare/v4.0.0...v4.1.0)
+
+**Implemented enhancements:**
+
+- puppet/augeasproviders\_core: Allow 5.x [\#127](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/pull/127) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- sysctl provider fails if multiple instances of value are declared in sysctl.conf [\#1](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/issues/1)
+- Handle duplicate entries and comments if 'ensure =\> absent' is set [\#126](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/pull/126) ([nick-markowski](https://github.com/nick-markowski))
+- Handle duplicate key entries and their associated comments [\#123](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/pull/123) ([nick-markowski](https://github.com/nick-markowski))
+
+## [v4.0.0](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/tree/v4.0.0) (2026-01-22)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-augeasproviders_sysctl/compare/v3.3.0...v4.0.0)
 
